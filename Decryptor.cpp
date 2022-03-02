@@ -13,7 +13,8 @@ Implementation Thinking:
 1) Common letters in English: a, e, h, i, n, o, r, s, t	(9 Letters Total)
 2) Begin letters Commonly found: a, d, o, t, w	(5 Letters Total)
 3) End letters Commonly found: d, e, s, t	(4 Letters Total)
-	For more information and reference: https://www.thiagi.com/instructional-puzzles-original/2015/2/13/cryptograms#:~:text=Letter%20Frequency,s%2C%20d%2C%20and%20t.
+*For more information and reference: https://www.thiagi.com/instructional-puzzles-original/2015/2/13/cryptograms#:~:text=Letter%20Frequency,s%2C%20d%2C%20and%20t.
+*Better Reference: https://norvig.com/mayzner.html
 
 4) List of 58,000+ English Words (Dictionary_Words.txt)
 	http://www.mieliestronk.com/corncob_lowercase.txt
