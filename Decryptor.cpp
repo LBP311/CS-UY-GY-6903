@@ -9,7 +9,7 @@ Project Notes:
 1) Both tests contain 500 characters
 2) Space will be found between each word
 
-Implementation Thinking:
+Implementation References:
 1) Common letters in English: a, e, h, i, n, o, r, s, t	(9 Letters Total)
 2) Begin letters Commonly found: a, d, o, t, w	(5 Letters Total)
 3) End letters Commonly found: d, e, s, t	(4 Letters Total)
@@ -26,7 +26,7 @@ Implementation Thinking:
 	As Provided (Dict2.txt)
 		https://brightspace.nyu.edu/content/enforced/176739-945-1224_SP22CS-GYCS-UY47836903AIINET/dictionary_2.txt
 	Removed Unnecessary Headers and Spaces (Dict2_Revised.txt)
-*/
+
 
 int main() {
 
