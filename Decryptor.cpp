@@ -30,6 +30,14 @@ Implementation References:
 
 Questions to Ask:
 1) Does a new-line character (\n) equate to a space (" ")?
+
+Implementation Possibilities:
+1) Possible Implementations for Decrypting messages
+	1a) Search for UnEncrypted Messages
+	1a) Search using Caeser Cipher
+	1b) Search using Vignere Cipher
+	1c) Search using Homophonic Cipher
+	1d) Brute-Force
 */
 
 
@@ -37,7 +45,7 @@ Questions to Ask:
 // Function Declarations
 void open_file(ifstream& file, string& filename);
 void read_lines(ifstream& file, vector<string>& lines);
-void get_d1_req(vector<string>& file, vector<int>& d1_freq);
+void get_d1_freq(vector<string>& file, vector<int>& d1_freq);
 
 main()
 {
@@ -45,17 +53,8 @@ main()
 	ifstream file;	// Temporarily Holds Encrypted Lines
 	vector<int> dict1_freq;	// Holds Letter Occurrence Frequency of Dict_1Revised.txt
 	
-	
-
-	/*
-	Is the follwing line needed?
-	vector<string> lines; 	// Store Encrypted Lines
-	*/
-
-
 	open_file(file, "Dict1_Revised.txt");	
 	read_lines(lines);
-
 
 	// Find Occurrence of Characters
 	get_d1_freq(file, d1_freq);
@@ -85,5 +84,6 @@ void read_lines(ifstream& file, vector<string>& lines) {
 void get_d1_freq(vector<string>& dict1, vector<int>& d1_f) {
 	for (size_t i = 0; i < dict1.length(); i++) {
 		int val = int(dict1[i]);
+
 	}
 }
